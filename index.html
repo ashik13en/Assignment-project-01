@@ -5,73 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Project 01</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <!-- header Section -->
-     <header class="header">
+    <header class="header">
         <div class="header-content">
-            <h3 class="header-content__title">All Thinks Are Possible If You believe</h3>
-            <p class="header-content__description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words
+            <h3 class="content-title">All Thinks Are <br> Possible If You <br> believe</h3>
+            <p class="content-description">There are many variations of passages of Lorem <br> Ipsum available, but the majority have suffered alteration in <br> some form, by injected humour, or randomized words
             </p>
             <button class="btn">Contac us</button>
         </div>
-     </header>
+    </header>
      <!-- main section -->
-     <main class="main">
+    <main class="main">
         <section class="main-content">
             <div class="image">
                 <img src="./images/human.png" alt="human">
             </div>
             <div class="article">
-                <h3 class="article-title">My failures of previous year</h3>
+                <h3 class="article-title">
+                    My failures of previous year
+                </h3>
                 <p class="article-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard Mc Clintock.
                 </p>
                 <ul>
-                    <li>Contrary to popular belief, is not simply.</li>
-                    <li>Contrary to popular belief.</li>
-                    <li>Contrary to popular , is not simply.</li>
-                    <li> Contrary to popular belief, is not simply.</li>
-                    <li> Contrary to popular simply.</li>
+                    <li>
+                        <i class="fa-solid icon-color fa-check">
+                        </i>
+                        Contrary to popular belief, is not simply
+                    </li>
+                    <li>
+                        <i class="fa-solid icon-color fa-check">
+                    </i>Contrary to popular belief.
+                   </li>
+                    <li>
+                        <i class="fa-solid icon-color fa-check">
+                    </i>Contrary to popular , is not simply.
+                    </li>
+                    <li> 
+                        <i class="fa-solid icon-color fa-check">
+                    </i>Contrary to popular belief, is not simply.</li>
+                    <li>
+                        <i class="fa-solid icon-color fa-check">
+                    </i> Contrary to popular simply.
+                    </li>
                 </ul>
             </div>
         </section>
         <!-- Planning section -->
-         <section class="planning-section">
-            <div class="planning-title">
-                <h3>My Plans</h3>
+        <section class="">
+            <h3 class="planning-title">My Plans</h3>
+            <div class="planning-section">
+                <div class="planning-content">
+                    <img src="./images/web.png" alt="Web Development">
+                    <img src="./images/js.png" alt=" Java Script">
+                    <img src="./images/smoke.png" alt="Smoking     Habit">
+                    <img src="./images/ecomm.png" alt="E-Commerce">
+                </div>
+                <div class="planning-content__title">
+                    <p class="content-subtitle-1">Web Development</p>
+                    <p class="content-subtitle-2">Java Script</p>
+                    <p class="content-subtitle-3">Smoking Habit</p>
+                    <p class="content-subtitle-4">E-Commerce</p>
+                </div>
+                <div class="planning-content__description">
+                    <p>I want to start</p>
+                    <p>I want to learn</p>
+                    <p>I want to end.</p>
+                    <p>I want to develop</p>
+                </div>
             </div>
-            <div class="planning-content">
-                <img src="./images/web.png" alt="Web Development">
-                <img src="./images/js.png" alt=" Java Script">
-                <img src="./images/smoke.png" alt="Smoking Habit">
-                <img src="./images/ecomm.png" alt="E-Commerce">
-            </div>
-            <div class="planning-content__title">
-                <p class="planning-content__sub-title-1">Web Development</p>
-                <p class="planning-content__sub-title-2">Java Script</p>
-                <p class="planning-content__sub-title-3">Smoking Habit</p>
-                <p class="planning-content__sub-title-4">E-Commerce</p>
-            </div>
-            <div class="planning-content__description">
-                <p>I want to start</p>
-                <p>I want to learn</p>
-                <p>I want to end.</p>
-                <p>I want to develop</p>
-            </div>
-         </section>
-         <!-- Contack Section -->
-          <section>
+        </section>
+    <!-- Contact Section -->
+        <section>
             <div class="contact">
                 <p class="contact-description">Always keep a positive mindset</p>
-                <p><button class="contact-btn" type="button">Call now</button>
-                </p>
+                <button class="contact-btn" type="button">Call now</button>
             </div>
-          </section>
+        </section>
      </main>
      <!-- Footer Section -->
-      <footer class="footer-section">
-        <section class="footer-title">
-            <h3 class="footer-subtitle">Future</h3>
+    <footer class="footer-section">
+        <section class="">
+            <h3 class="footer-title">Future</h3>
             <p class="footer-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
             <p class="footer-address">
             Email:fuadashikth13en@gmail.com 
@@ -85,12 +102,12 @@
                 <img src="./images/youtube.png" alt="youtube">
             </div>
         </section>
-        <!--  -->
-        <section>
-
+        <!-- Subscribe Part -->
+        <section class="subscribe-part">
+            <h3 class="subscribe-title"> Subscribe</h3>
+            <input type="email" name id placeholder="Enter Your Name" class="email-form">
+            <input type="submit" value="Subscribe" class="submit">
         </section>
-
-
-      </footer>
+    </footer>
 </body>
 </html>
