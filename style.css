@@ -96,34 +96,23 @@
     justify-content: space-between;
     padding-left: 30px;
 }
-.content-subtitle-1 {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-    padding-left: 10px;
-}
-.content-subtitle-2 {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-}
-.content-subtitle-3 {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-}
-.content-subtitle-4 {
-    font-weight: 700;
-    font-size: 30px;
-    margin-top: 20px;
-    text-align: center;
-}
-.planning-content__description {
+
+.all-box {
     display: flex;
-    justify-content: space-around;
+    gap: 20px;
+}
+
+.box-one {
+    width: 300px;
+    text-align: center;
+}
+.box-title {
+    font-weight: 700;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.box-description {
     margin-top: 10px;
     color: #737272;
     font-size: 26px;
